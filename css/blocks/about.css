@@ -1,0 +1,58 @@
+
+
+.about {
+    display: flex;
+}
+
+.about:before {
+    content: '';
+    width: 490px;
+    height: 505px;
+    background: url("../../img/gates.png") center center, no-repeat;
+    display: block;
+}
+
+.about__description {
+     max-width: 785px;
+     position: relative;
+     border-radius: 4px;
+     overflow: hidden;
+     margin-left: -142px;
+     margin-top: 110px;
+}
+
+.about__cover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 81px 66px;
+    min-height: 140px;
+}
+
+.about__title {
+    color: #000000;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 37px;
+}
+
+.about__description--text{
+    color: #000;
+    margin-bottom: 43px;
+}
+
+.about__description--text p {
+    margin-bottom: 20px;
+}
+
+.about__description--text p:last-child {
+    margin-bottom: 0;
+}

@@ -39,8 +39,7 @@
 
 .breadcrumbs__item:after {
     content: '/';
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 0 5px;
 }
 
 .breadcrumbs__item:last-child::after {
@@ -72,8 +71,8 @@
 }
 
 .service__img {
-    width: 30%;
-    margin-right: 17%;
+    width: 45%;
+    margin-right: 3%;
 }
 
 .service:hover {

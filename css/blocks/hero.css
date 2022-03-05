@@ -95,7 +95,7 @@
 }
 
 .contacts__dropdown:hover .contacts__dropdown__menu {
-    left: 0;
+    left: 35px;
     opacity: 1;
 }
 

@@ -92,10 +92,11 @@
     font-size: 48px;
     color: #FFFFFF;
     line-height: 1.1;
+    flex: 1;
 }
 
 .separator__photo {
-    margin-top: 22px;
+    padding-top: 22px;
 }
 
 .form__row {
